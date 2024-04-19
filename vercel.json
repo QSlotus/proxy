@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/gh/(.*)",
+      "dest": "https://gh-proxy.halo-402.workers.dev//$1"
+    },
+    {
+      "src": "/second/(.*)",
+      "dest": "https://second-website.com/$1"
+    },
+    {
+      "src": "/third/(.*)",
+      "dest": "https://third-website.com/$1"
+    }
+  ]
+}
