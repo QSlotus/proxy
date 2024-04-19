@@ -3,7 +3,7 @@
   "routes": [
     {
       "src": "/gh/(.*)",
-      "dest": "https://gh-proxy.halo-402.workers.dev//$1"
+      "dest": "https://gh-proxy.halo-402.workers.dev/$1"
     },
     {
       "src": "/second/(.*)",
